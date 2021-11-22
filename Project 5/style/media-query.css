@@ -1,0 +1,80 @@
+/**** Media Query ***/
+@media all and (max-width: 1420px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+   /*** all accepted **/
+}
+
+
+@media all and (max-width: 991px) {
+  /**** all accepted **/
+}
+
+@media all and (max-width: 768px) {
+    .headingdiv {
+        flex-direction: column
+    }
+    .navmenu {
+        margin-bottom: 30px;
+    }
+    .navmenu a {
+        font-size:18px;
+        padding: 5px;
+        margin: 0 10px; 
+    }
+    .images {
+        flex-direction: column;
+        
+    }
+    .img {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .portfolioitems img {
+        width: 47%;
+        
+    }
+    .blog-text img  {
+        float: none;
+        padding: 0;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    form input, form textarea {
+        width: 95%;
+    }
+    
+}
+
+@media all and (max-width: 480px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navmenu {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -120px; 
+    }
+    .navmenu a{
+        font-size: 24px;
+        margin: 20px;
+    }
+    .hamburger-menu {
+        display: inline;
+    }
+}
+
+@media all and (max-width: 320px) {
+   /** all accepted **/
+}
